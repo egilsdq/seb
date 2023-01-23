@@ -1,6 +1,9 @@
 package com.example.leasingcalculator;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
@@ -13,5 +16,11 @@ public class BaseTest {
         Configuration.pageLoadTimeout = 30000;
         Configuration.timeout = 10000;
         Configuration.screenshots = true;
+    }
+
+    @AfterTest
+    public void closeBrowser() {
+        WebDriverRunner.driver().getWebDriver().quit();
+        Reporter.log("The driver has been closed.", true);
     }
 }

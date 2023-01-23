@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79f6be46-0f2b-4894-9381-ddc0035c78b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/MainPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/Pages/MainPage.java" afterDir="false" />
+    <list default="true" id="79f6be46-0f2b-4894-9381-ddc0035c78b9" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/Pages/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/leasingcalculator/Pages/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +55,24 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.MainPageTest">
+    <configuration name="MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="leasing-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.leasingcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.leasingcalculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.leasingcalculator.MainPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainPageTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="leasing-calculator" />
       <extension name="coverage">
@@ -84,8 +91,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainPageTest.testPrintPaymentSchedule" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="leasing-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.leasingcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.leasingcalculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.leasingcalculator.MainPageTest" />
+      <option name="METHOD_NAME" value="testPrintPaymentSchedule" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.testPurchaseValueVerification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="leasing-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.leasingcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.leasingcalculator" />
+      <option name="MAIN_CLASS_NAME" value="com.example.leasingcalculator.MainPageTest" />
+      <option name="METHOD_NAME" value="testPurchaseValueVerification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainPageTest" />
+        <item itemvalue="TestNG.MainPageTest.testPurchaseValueVerification" />
+        <item itemvalue="TestNG.MainPageTest.testPrintPaymentSchedule" />
         <item itemvalue="TestNG.MainPageTest.test" />
       </list>
     </recent_temporary>
@@ -98,8 +144,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674469615764</updated>
-      <workItem from="1674469617819" duration="2808000" />
+      <workItem from="1674469617819" duration="15816000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1674472642548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674472642548</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +169,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
